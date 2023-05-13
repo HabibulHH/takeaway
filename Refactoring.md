@@ -28,4 +28,4 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 - Secondly, we detected that we were making the same type of data sanitization (checking and making string) for both of the cases (when partition key is there or when are making keys with whole event data ), and have taken this to one common pure function.
 - Finally, I wanted to process the candidate data in a hashing function in one place so that it's easy to read the logical flow.After refactoring hash is used only in one place.
 
-Now the code is easy to read and also by reading the code only it's user can understand the logical flow easily
+Now the code is easy to read , also by reading only  user can understand the logical flow easily
